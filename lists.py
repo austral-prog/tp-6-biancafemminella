@@ -36,7 +36,7 @@ def check_lists(list_to_compare1, list_to_compare2):
     else:
         return False
 
-def list_of_lists(list_of_lists_to_modify):
+def list_of_lists(listas):
     nueva = listas[:]  
     nueva[0] = nueva[0][:2]
     nueva[1] = nueva[1][1:4]
